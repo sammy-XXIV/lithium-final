@@ -1,0 +1,13 @@
+{
+  "source": "User-provided authenticated Cloud Shell output, transcribed locally",
+  "project_id": "shamble-508513",
+  "location": "us-east1",
+  "job_id": "lithium_partitions_20261113T145611Z",
+  "sql_file": "queries/00_partition_inventory.sql",
+  "result_file": "queries/results/00_partition_inventory.json",
+  "dry_run_estimated_bytes": 10485760,
+  "maximum_bytes_billed": 104857600,
+  "actual_bytes_processed": null,
+  "full_job_metadata_imported": false,
+  "note": "Latest partition existence does not prove completeness of that day or every intervening partition. Metadata inventory is not transaction-level analysis."
+}

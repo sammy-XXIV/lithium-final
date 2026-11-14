@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "source": "User-provided authenticated Cloud Shell output, transcribed locally",
+    "scope": "Selected fields from the pasted job response; query plan and other fields omitted",
+    "full_job_metadata_imported": false,
+    "sql_file": "queries/01_verifier_event_inventory.sql",
+    "result_file": "queries/results/01_verifier_event_inventory.json",
+    "maximum_bytes_billed": 2147483648
+  },
+  "jobReference": {
+    "jobId": "lithium_events_20261113T150935Z",
+    "location": "us-east1",
+    "projectId": "shamble-508513"
+  },
+  "status": {"state": "DONE"},
+  "statistics": {
+    "creationTime": "1794582577294",
+    "startTime": "1794582577440",
+    "endTime": "1794582578036",
+    "finalExecutionDurationMs": "308",
+    "totalBytesProcessed": "1605049184",
+    "totalSlotMs": "484",
+    "query": {
+      "billingTier": 1,
+      "cacheHit": false,
+      "estimatedBytesProcessed": "1605049184",
+      "totalBytesBilled": "1605369856",
+      "totalBytesProcessed": "1605049184",
+      "totalPartitionsProcessed": "1",
+      "totalSlotMs": "484",
+      "transferredBytes": "0",
+      "statementType": "SELECT",
+      "referencedTables": [
+        {"datasetId":"crypto_near_mainnet_us","projectId":"bigquery-public-data","tableId":"execution_outcomes"}
+      ]
+    }
+  }
+}

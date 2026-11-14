@@ -1,0 +1,18 @@
+{
+  "source": "Downloaded Cloud Shell archive supplied by user; imported from local Downloads",
+  "archive_sha256": "6745ede046b84a737b9a00d73b2ed5a3f9d00b469fdbf298d587d1ff3a0e1dc0",
+  "full_job_metadata_imported": true,
+  "job_id": "lithium_windows_20261113T152520Z",
+  "maximum_bytes_billed": 17179869184,
+  "files": {
+    "queries/results/02_sample_window_event_inventory.json": "b2aee49202b3f798d466acb5b07022a4adf7e74418f664d719b0ae0056302075",
+    "queries/results/02_sample_window_event_inventory.job.json": "d8c63ecc955db668d44a6aa978fc41af01225da3cedde71b09a47e87c574bf42",
+    "queries/02_sample_window_event_inventory.sql": "031c5620121e73263f55805ff872194bfd6b6dd4d8063376ac74813184d759f8"
+  },
+  "public_job_fields_removed": [
+    "user_email",
+    "principal_subject"
+  ],
+  "original_job_sha256": "4f60b35146b41f72f1a17d7860d053e3021bada5770e81a6d3f9469cddb5d008",
+  "note": "Original job retained in ignored local raw cache and downloaded archive. Published job removes executing-user identity fields; query, status and statistics retained."
+}

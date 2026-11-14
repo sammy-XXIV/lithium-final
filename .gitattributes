@@ -1,0 +1,7 @@
+# Imported evidence hashes cover the original bytes, including line endings.
+queries/*.sql -text -whitespace
+queries/results/*.json -text -whitespace
+docs/data/bigquery/* -text -whitespace
+sampling*.json -text -whitespace
+docs/data/expanded* -text -whitespace
+tools/export-expanded-cloudshell.sh text eol=lf

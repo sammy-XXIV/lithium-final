@@ -1,0 +1,21 @@
+{
+  "source": "Andrea Soldano, near-thesis, thesis/THESIS.md, Q5",
+  "source_commit": "13b580f37e97d04fa0403f5c1a785f962886bddd",
+  "source_url": "https://github.com/soldanoandrea/near-thesis/blob/13b580f37e97d04fa0403f5c1a785f962886bddd/thesis/THESIS.md#q5-fees-and-the-take-rate",
+  "source_file_sha256": "d08a0c25e86ed9eb387ebfaad1e876e560c7be8e4707d3b1b84c7e6539f0bf30",
+  "retrieved_utc": "2026-11-14",
+  "as_of": "2026-10-31",
+  "window": "Last 90 days, annualized; published rounded figures",
+  "unit": "USD per year (annualized run rate, not realized yearly revenue)",
+  "gross_fees_annualized_usd": "70240000",
+  "captured_revenue_annualized_usd": "19190000",
+  "evidence_status": "External published inputs; not independently reconciled by Lithium. Gross fees include affiliate fees and are not captured revenue.",
+  "model_assumptions": [
+    "The sampled account-volume mix represents revenue-bearing activity, which is unverified.",
+    "All exposed flow is lost after departures, with no replacement or rerouting.",
+    "Fee yield, capture fraction and price remain constant under volume changes.",
+    "Moving attribution changes assumed coverage while retaining observed within-attributed account weights.",
+    "Missing attribution can belong entirely to departing accounts or entirely elsewhere."
+  ],
+  "reuse": "Numeric inputs and citation only; no code, prose or document structure copied."
+}

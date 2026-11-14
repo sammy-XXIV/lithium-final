@@ -1,0 +1,11 @@
+[
+  {"event_log_count":"188","event_name":"transfer","receipts_with_event":"133","schema_version":"0.4.3","standard":"dip4","status":"SUCCESS_VALUE"},
+  {"event_log_count":"167","event_name":"intents_executed","receipts_with_event":"167","schema_version":"0.4.3","standard":"dip4","status":"SUCCESS_VALUE"},
+  {"event_log_count":"135","event_name":"mt_transfer","receipts_with_event":"135","schema_version":"1.0.0","standard":"nep245","status":"SUCCESS_VALUE"},
+  {"event_log_count":"52","event_name":"mt_mint","receipts_with_event":"52","schema_version":"1.0.0","standard":"nep245","status":"SUCCESS_VALUE"},
+  {"event_log_count":"51","event_name":"ft_withdraw","receipts_with_event":"51","schema_version":"0.4.3","standard":"dip4","status":"SUCCESS_VALUE"},
+  {"event_log_count":"51","event_name":"mt_burn","receipts_with_event":"51","schema_version":"1.0.0","standard":"nep245","status":"SUCCESS_VALUE"},
+  {"event_log_count":"16","event_name":"transfer","receipts_with_event":"16","schema_version":"0.4.3","standard":"dip4","status":"FAILURE"},
+  {"event_log_count":"11","event_name":"storage_deposit","receipts_with_event":"11","schema_version":"0.4.3","standard":"dip4","status":"SUCCESS_VALUE"},
+  {"event_log_count":"6","event_name":"token_diff","receipts_with_event":"2","schema_version":"0.4.3","standard":"dip4","status":"SUCCESS_VALUE"}
+]

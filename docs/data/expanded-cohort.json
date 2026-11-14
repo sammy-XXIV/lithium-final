@@ -1,0 +1,255 @@
+{
+  "baseline_comparison": {
+    "config_sha256": "82a72c4044e96df50cb8a0eda0d8d54cc175ae8dab034fa5d6e61af50b3a5124",
+    "core_records_preserved": true,
+    "count": 555
+  },
+  "config_sha256": "19f732c61dcce99255d1a8a573b19e9ede46dee3f71a833c073d92aa771ff69c",
+  "count": 5689,
+  "csv_sha256": "2bd3485b8bac89841cf4a282a8a1a26bfffde0d1bc1ed68426f5e6261b7dae9b",
+  "invalid_usd_count": 0,
+  "linked_hashes": 14057,
+  "minutes": 480,
+  "prepared_sql_sha256": "0750f0af0dc46698194b55857c65ee6df45afe3e7731e1f0aaf3b87764edddc4",
+  "sampling": {
+    "dates": [
+      "2026-09-16",
+      "2026-09-24",
+      "2026-10-02",
+      "2026-10-10",
+      "2026-10-18",
+      "2026-10-26",
+      "2026-11-03",
+      "2026-11-11"
+    ],
+    "page_size": 1000,
+    "slots_utc": [
+      "00:00",
+      "08:00",
+      "16:00"
+    ],
+    "statuses": "SUCCESS",
+    "window_minutes": 20
+  },
+  "status": "deferred_not_used_in_analysis",
+  "total_usd": "11575608.698684697196",
+  "warning": "Archived Explorer collection only. Further resolution was deferred at user request; this cohort is excluded from published attribution. No warehouse execution is claimed.",
+  "windows": [
+    {
+      "complete": true,
+      "count": 156,
+      "end": "2026-09-16T00:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:00.481315+00:00",
+      "file": "20260916T0000.json",
+      "sha256": "e6fae6eb0eced494e2be8f358c0afe895c9a2e9c6321162f65ac4b76f9f44c64",
+      "start": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 252,
+      "end": "2026-09-16T08:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:05.836338+00:00",
+      "file": "20260916T0800.json",
+      "sha256": "4cd8bd7b1beef3cd552062232f11d0f09f532abcc92a312d15e5f3038a7f3281",
+      "start": "2026-09-16T08:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 287,
+      "end": "2026-09-16T16:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:10.785030+00:00",
+      "file": "20260916T1600.json",
+      "sha256": "7d70a00831eb9fef648c1315ec57a3cd3e9e32fd57ed112e2c8bf9f573416dcb",
+      "start": "2026-09-16T16:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 193,
+      "end": "2026-09-24T00:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:16.141223+00:00",
+      "file": "20260924T0000.json",
+      "sha256": "4dd45b1529efbcac73dbe507ecd1e23ee4a2d4d35d2faa6a1c5661317206e85c",
+      "start": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 281,
+      "end": "2026-09-24T08:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:21.249403+00:00",
+      "file": "20260924T0800.json",
+      "sha256": "1fd695d555f2d9984f12cc66badc241c647f84dc5e139dd090fae4e095642110",
+      "start": "2026-09-24T08:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 385,
+      "end": "2026-09-24T16:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:26.648302+00:00",
+      "file": "20260924T1600.json",
+      "sha256": "313fb865586bd743d373a702f7880931e78bb27da59a110df74d194213376ed7",
+      "start": "2026-09-24T16:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 122,
+      "end": "2026-10-02T00:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:31.338054+00:00",
+      "file": "20261002T0000.json",
+      "sha256": "efe0888ebdfe3ee21d54187495cc566fac400b516d9189f0b8ca8e8e8e18990b",
+      "start": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 220,
+      "end": "2026-10-02T08:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:36.767680+00:00",
+      "file": "20261002T0800.json",
+      "sha256": "6da325f4f22a347abce91789cb14d7085a276bc7e4574eb55b7390cc4b3392b5",
+      "start": "2026-10-02T08:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 306,
+      "end": "2026-10-02T16:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:42.095390+00:00",
+      "file": "20261002T1600.json",
+      "sha256": "afadf702148cacd0a2074a4e4c3f349e54fc57245f9a3024252278cdaab4c7bb",
+      "start": "2026-10-02T16:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 189,
+      "end": "2026-10-10T00:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:46.852590+00:00",
+      "file": "20261010T0000.json",
+      "sha256": "af6bfceafd27336b3864210feef64d8ecdc8a21d9cf265c4900c2543bd3d73b3",
+      "start": "2026-10-10T00:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 178,
+      "end": "2026-10-10T08:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:52.218309+00:00",
+      "file": "20261010T0800.json",
+      "sha256": "3105a9765e599b38b21317db5aa8b49bfbd9ae18676bc9d27fa0f1d367aaeb31",
+      "start": "2026-10-10T08:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 282,
+      "end": "2026-10-10T16:20:00.000Z",
+      "fetched_at": "2026-11-13T17:04:57.573396+00:00",
+      "file": "20261010T1600.json",
+      "sha256": "488a8a12bc410b6a355b72af3d9ae04c89a48b2b5d720f6e3ae8af9c872a9264",
+      "start": "2026-10-10T16:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 113,
+      "end": "2026-10-18T00:20:00.000Z",
+      "fetched_at": "2026-11-13T17:05:02.268042+00:00",
+      "file": "20261018T0000.json",
+      "sha256": "217e08e8c67b2a47f27d53f996f1e3dd28648a16788faca408c22d7643efa039",
+      "start": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 130,
+      "end": "2026-10-18T08:20:00.000Z",
+      "fetched_at": "2026-11-13T17:05:07.499323+00:00",
+      "file": "20261018T0800.json",
+      "sha256": "8c9f3350a31de2948d7e16789511f9a185a08018eab204ee8597893ad2aa11e3",
+      "start": "2026-10-18T08:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 208,
+      "end": "2026-10-18T16:20:00.000Z",
+      "fetched_at": "2026-11-13T17:05:13.304129+00:00",
+      "file": "20261018T1600.json",
+      "sha256": "241fda42011a7761743d91215e3e6e9d15cd0ee1b8584b0d872c04a8375c7bc8",
+      "start": "2026-10-18T16:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 120,
+      "end": "2026-10-26T00:20:00.000Z",
+      "fetched_at": "2026-11-13T17:05:18.356187+00:00",
+      "file": "20261026T0000.json",
+      "sha256": "825bf6977e4db73f210d4799d5de434bed1568c8a3f9a4981839ecafef573d73",
+      "start": "2026-10-26T00:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 175,
+      "end": "2026-10-26T08:20:00.000Z",
+      "fetched_at": "2026-11-13T17:05:23.380288+00:00",
+      "file": "20261026T0800.json",
+      "sha256": "113794109ccceaafbe2c6a62edf0ab472c50120eb84028d044147200a270721b",
+      "start": "2026-10-26T08:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 313,
+      "end": "2026-10-26T16:20:00.000Z",
+      "fetched_at": "2026-11-13T17:05:29.127259+00:00",
+      "file": "20261026T1600.json",
+      "sha256": "1d5d68b35a9ec8d561dba8b95be881d52cd77efec6b423b2e2fd07d00bd060b9",
+      "start": "2026-10-26T16:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 201,
+      "end": "2026-11-03T00:20:00.000Z",
+      "fetched_at": "2026-11-13T17:05:34.066700+00:00",
+      "file": "20261103T0000.json",
+      "sha256": "27c2af3c3b465b4f5d9275c1f74a0ddbe416eb9c5b714e0d230091d605bbcfad",
+      "start": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 288,
+      "end": "2026-11-03T08:20:00.000Z",
+      "fetched_at": "2026-11-13T17:05:39.376887+00:00",
+      "file": "20261103T0800.json",
+      "sha256": "be5f7452ff769e9247b3f3599c3d7c6e0f11bc64294f502bd6f99cbe135e5fa8",
+      "start": "2026-11-03T08:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 353,
+      "end": "2026-11-03T16:20:00.000Z",
+      "fetched_at": "2026-11-13T17:05:45.819068+00:00",
+      "file": "20261103T1600.json",
+      "sha256": "5977f45c20c65554dc8d275e23ba9e8e64fbed797524f3895a4b4de3bddf8fb2",
+      "start": "2026-11-03T16:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 209,
+      "end": "2026-11-11T00:20:00.000Z",
+      "fetched_at": "2026-11-13T17:06:00.056962+00:00",
+      "file": "20261111T0000.json",
+      "sha256": "317920ac41442999e2927537a8a92658ba43ad9decbcb642e9c203fd0fac4e76",
+      "start": "2026-11-11T00:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 297,
+      "end": "2026-11-11T08:20:00.000Z",
+      "fetched_at": "2026-11-13T17:06:05.454317+00:00",
+      "file": "20261111T0800.json",
+      "sha256": "25022ec9d7c2fed65d04b803fca14249cb9e272b46ad73f6109000931f92c9a6",
+      "start": "2026-11-11T08:00:00.000Z"
+    },
+    {
+      "complete": true,
+      "count": 431,
+      "end": "2026-11-11T16:20:00.000Z",
+      "fetched_at": "2026-11-13T17:06:10.829354+00:00",
+      "file": "20261111T1600.json",
+      "sha256": "bc241d94169edd82c027172afcfe34b75e255d28d6bf45a8680b8bb9dd911090",
+      "start": "2026-11-11T16:00:00.000Z"
+    }
+  ]
+}

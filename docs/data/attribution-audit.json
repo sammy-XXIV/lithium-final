@@ -1,0 +1,29 @@
+{
+  "baseline_commit": "79b1803346416e4a0b5cbd55eb1776653778b0be",
+  "change": "Support observed intents_executed 0.3.1; aggregate closed two-account fee-netted executions",
+  "same_sampling_config": true,
+  "same_rpc_cache_hashes": true,
+  "fixture_sha256": "b13060706de1b106df1f481640c6481a01e7c613c574978daf570e849f9c6f3e",
+  "before": {
+    "attributable_usd": "0",
+    "attributable_share": "0",
+    "attributed_account_count": 0,
+    "public_usd": "118668.261906727885",
+    "unresolved_usd": "662313.741931439998",
+    "top3_lower": "0",
+    "top3_upper": "1",
+    "hhi_lower": "0",
+    "hhi_upper": "1"
+  },
+  "after": {
+    "attributable_usd": "237244.082545028184",
+    "attributable_share": "0.2837482938273344989190539303",
+    "attributed_account_count": 15,
+    "public_usd": "449619.088242948493",
+    "unresolved_usd": "331362.91559521939",
+    "top3_lower": "0.25909151242200071740403773189173138746517245868497",
+    "top3_upper": "0.97534321859466621848498380160063202648900812191757",
+    "hhi_lower": "0.037029356188826883214690748970099874854577299580637",
+    "hhi_upper": "0.81215378063143845727908027670526876442543942980026"
+  }
+}

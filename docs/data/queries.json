@@ -1,0 +1,146 @@
+[
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-09-15T23%3A59%3A59.999Z&endTimestamp=2026-09-16T00%3A02%3A00.000Z",
+    "window": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-09-16T07%3A59%3A59.999Z&endTimestamp=2026-09-16T08%3A02%3A00.000Z",
+    "window": "2026-09-16T08:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-09-16T15%3A59%3A59.999Z&endTimestamp=2026-09-16T16%3A02%3A00.000Z",
+    "window": "2026-09-16T16:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-09-23T23%3A59%3A59.999Z&endTimestamp=2026-09-24T00%3A02%3A00.000Z",
+    "window": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-09-24T07%3A59%3A59.999Z&endTimestamp=2026-09-24T08%3A02%3A00.000Z",
+    "window": "2026-09-24T08:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-09-24T15%3A59%3A59.999Z&endTimestamp=2026-09-24T16%3A02%3A00.000Z",
+    "window": "2026-09-24T16:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-01T23%3A59%3A59.999Z&endTimestamp=2026-10-02T00%3A02%3A00.000Z",
+    "window": "2026-10-02T00:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-02T07%3A59%3A59.999Z&endTimestamp=2026-10-02T08%3A02%3A00.000Z",
+    "window": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-02T15%3A59%3A59.999Z&endTimestamp=2026-10-02T16%3A02%3A00.000Z",
+    "window": "2026-10-02T16:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-09T23%3A59%3A59.999Z&endTimestamp=2026-10-10T00%3A02%3A00.000Z",
+    "window": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-10T07%3A59%3A59.999Z&endTimestamp=2026-10-10T08%3A02%3A00.000Z",
+    "window": "2026-10-10T08:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-10T15%3A59%3A59.999Z&endTimestamp=2026-10-10T16%3A02%3A00.000Z",
+    "window": "2026-10-10T16:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-17T23%3A59%3A59.999Z&endTimestamp=2026-10-18T00%3A02%3A00.000Z",
+    "window": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-18T07%3A59%3A59.999Z&endTimestamp=2026-10-18T08%3A02%3A00.000Z",
+    "window": "2026-10-18T08:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-18T15%3A59%3A59.999Z&endTimestamp=2026-10-18T16%3A02%3A00.000Z",
+    "window": "2026-10-18T16:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-25T23%3A59%3A59.999Z&endTimestamp=2026-10-26T00%3A02%3A00.000Z",
+    "window": "2026-10-26T00:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-26T07%3A59%3A59.999Z&endTimestamp=2026-10-26T08%3A02%3A00.000Z",
+    "window": "2026-10-26T08:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-10-26T15%3A59%3A59.999Z&endTimestamp=2026-10-26T16%3A02%3A00.000Z",
+    "window": "2026-10-26T16:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-11-02T23%3A59%3A59.999Z&endTimestamp=2026-11-03T00%3A02%3A00.000Z",
+    "window": "2026-11-03T00:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-11-03T07%3A59%3A59.999Z&endTimestamp=2026-11-03T08%3A02%3A00.000Z",
+    "window": "2026-11-03T08:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-11-03T15%3A59%3A59.999Z&endTimestamp=2026-11-03T16%3A02%3A00.000Z",
+    "window": "2026-11-03T16:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-11-10T23%3A59%3A59.999Z&endTimestamp=2026-11-11T00%3A02%3A00.000Z",
+    "window": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-11-11T07%3A59%3A59.999Z&endTimestamp=2026-11-11T08%3A02%3A00.000Z",
+    "window": "2026-11-11T08:00:00.000Z"
+  },
+  {
+    "cursor": "Page cursors were not preserved by the original collector; complete window response is cached.",
+    "pagination": "Continue with lastDepositAddress + lastDepositMemo until exhausted; locally filter to [start,end).",
+    "url": "https://explorer.near-intents.org/api/v0/transactions?numberOfTransactions=1000&statuses=SUCCESS&startTimestamp=2026-11-11T15%3A59%3A59.999Z&endTimestamp=2026-11-11T16%3A02%3A00.000Z",
+    "window": "2026-11-11T16:00:00.000Z"
+  }
+]

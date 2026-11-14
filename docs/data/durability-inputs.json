@@ -1,0 +1,100 @@
+{
+  "accounts": [
+    {
+      "account": "0x4f77780141b0770a33d270ee255beb25c9568c7b",
+      "usd": "5.2961900793"
+    },
+    {
+      "account": "0x8c60fa34790d4661ae4b5302f2a654539352e81b",
+      "usd": "18772.27755045269"
+    },
+    {
+      "account": "0x94845333028b1204fbe14e1278fd4adde46b22ce.near",
+      "usd": "4861.581614130582"
+    },
+    {
+      "account": "111-testing-funds.near",
+      "usd": "28.00285911767"
+    },
+    {
+      "account": "6247d9c671ca6a80cf2c75e26edb8cd75ebf00fcd3c56c39107d6ca20c9cfb29",
+      "usd": "2046.17694371199"
+    },
+    {
+      "account": "688785fae3ee9fdccf1a43033499fb285610a2cf996cf1be4a2696b248522244",
+      "usd": "22.02417072"
+    },
+    {
+      "account": "bestswap.near",
+      "usd": "58.0377"
+    },
+    {
+      "account": "blockzen-1-main.near",
+      "usd": "44871.875615343663"
+    },
+    {
+      "account": "blockzen-2-main.near",
+      "usd": "793.9487808"
+    },
+    {
+      "account": "brlabs-solver.near",
+      "usd": "126.740637883082"
+    },
+    {
+      "account": "crux-solver.near",
+      "usd": "152984.209002138225"
+    },
+    {
+      "account": "kipseli.near",
+      "usd": "8575.135303646968"
+    },
+    {
+      "account": "solver-multichain-asset.near",
+      "usd": "317.411401725618"
+    },
+    {
+      "account": "solver-priv-liq.near",
+      "usd": "3763.984883513142"
+    },
+    {
+      "account": "solver-ref.near",
+      "usd": "17.379891765254"
+    }
+  ],
+  "dateCoverageRange": [
+    0.00017631195411549347,
+    0.6422311542606508
+  ],
+  "economic": {
+    "as_of": "2026-10-31",
+    "captured_revenue_annualized_usd": "19190000",
+    "evidence_status": "External published inputs; not independently reconciled by Lithium. Gross fees include affiliate fees and are not captured revenue.",
+    "gross_fees_annualized_usd": "70240000",
+    "model_assumptions": [
+      "The sampled account-volume mix represents revenue-bearing activity, which is unverified.",
+      "All exposed flow is lost after departures, with no replacement or rerouting.",
+      "Fee yield, capture fraction and price remain constant under volume changes.",
+      "Moving attribution changes assumed coverage while retaining observed within-attributed account weights.",
+      "Missing attribution can belong entirely to departing accounts or entirely elsewhere."
+    ],
+    "retrieved_utc": "2026-11-14",
+    "reuse": "Numeric inputs and citation only; no code, prose or document structure copied.",
+    "source": "Andrea Soldano, near-thesis, thesis/THESIS.md, Q5",
+    "source_commit": "13b580f37e97d04fa0403f5c1a785f962886bddd",
+    "source_file_sha256": "d08a0c25e86ed9eb387ebfaad1e876e560c7be8e4707d3b1b84c7e6539f0bf30",
+    "source_url": "https://github.com/soldanoandrea/near-thesis/blob/13b580f37e97d04fa0403f5c1a785f962886bddd/thesis/THESIS.md#q5-fees-and-the-take-rate",
+    "unit": "USD per year (annualized run rate, not realized yearly revenue)",
+    "window": "Last 90 days, annualized; published rounded figures"
+  },
+  "observedCoverage": 0.2837482938273345,
+  "sampleCount": 555,
+  "sampleDateVolumeChangeRange": [
+    -0.8587711571352368,
+    2.4270292526758106
+  ],
+  "totalUsd": "836107.521017888862",
+  "transactionCount": 1333,
+  "transactionsAvailable": 1333,
+  "volumeSliderMaximum": 250,
+  "windows": 24
+}

@@ -1,0 +1,2632 @@
+[
+  {
+    "event_log_count": "56", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "18", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "54", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "32", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "35", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "35", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "34", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "34", 
+    "schema_version": "0.3.1", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "20", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "20", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "18", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "17", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "18", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "18", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "17", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "17", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "3", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "3", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "public_key_added", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "118", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "36", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "87", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "58", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "68", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "68", 
+    "schema_version": "0.3.1", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "65", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "65", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "37", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "37", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "37", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "37", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "35", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "35", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "17", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "17", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "5", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "5", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "90", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "34", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "68", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "42", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "58", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "58", 
+    "schema_version": "0.3.1", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "56", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "56", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "26", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "26", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "25", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "25", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "22", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "19", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "15", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "15", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "3", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "3", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "3", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "3", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "public_key_added", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-09-16", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "67", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "21", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "63", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "41", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "45", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "45", 
+    "schema_version": "0.3.1", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "42", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "42", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "24", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "24", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "21", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "19", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "21", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "21", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "12", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "12", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "4", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "4", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "3", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "3", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "83", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "49", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "66", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "24", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "58", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "58", 
+    "schema_version": "0.3.1", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "51", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "51", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "31", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "31", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "29", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "29", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "28", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "23", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "15", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "15", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "7", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "7", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "public_key_added", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "nft_withdraw", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "177", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "61", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "136", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "78", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "88", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "88", 
+    "schema_version": "0.3.1", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "84", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "84", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "69", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "69", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "67", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "67", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "66", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "65", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "17", 
+    "event_name": "transfer", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "17", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "8", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "8", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "4", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "4", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "public_key_added", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-09-24", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "25", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "8", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "20", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "20", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "18", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "12", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "17", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "17", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "17", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "17", 
+    "schema_version": "0.3.1", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "15", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "15", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "10", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "9", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "9", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "9", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "55", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "21", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "54", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "36", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "42", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "42", 
+    "schema_version": "0.3.1", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "41", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "41", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "31", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "31", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "21", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "21", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "20", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "20", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "18", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "18", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "111", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "41", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "72", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "51", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "68", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "68", 
+    "schema_version": "0.3.1", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "63", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "63", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "40", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "40", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "39", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "38", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "33", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "33", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "16", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "16", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "6", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "6", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "5", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "5", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "public_key_added", 
+    "observed_date": "2026-10-02", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.3.0", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "72", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "25", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "68", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "51", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "67", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "67", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "56", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "56", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "38", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "38", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "31", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "31", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "22", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "20", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "17", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "17", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "10", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "10", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "3", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "3", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "3", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "3", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "public_key_added", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "93", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "57", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "79", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "27", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "67", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "67", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "61", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "61", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "39", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "39", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "37", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "37", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "33", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "32", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "17", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "17", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "7", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "7", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "4", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "4", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "99", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "64", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "91", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "30", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "75", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "75", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "67", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "67", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "42", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "42", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "40", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "40", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "37", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "37", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "9", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "9", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "7", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "7", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "4", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "4", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "public_key_added", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-10", 
+    "receipts_with_event": "1", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_RECEIPT_ID", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "57", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "35", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "49", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "49", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "39", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "39", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "35", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "35", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "34", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "15", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "28", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "28", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "28", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "27", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "16", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "16", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "4", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "4", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "3", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "3", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "90", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "47", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "52", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "52", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "47", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "47", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "41", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "18", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "35", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "35", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "26", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "26", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "25", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "24", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "16", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "16", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "8", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "8", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "3", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "3", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "public_key_added", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "101", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "57", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "75", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "29", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "67", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "67", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "65", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "65", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "35", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "35", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "25", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "25", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "25", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "25", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "16", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "16", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "5", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "5", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "2", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_RECEIPT_ID", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-10-18", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "57", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "36", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "51", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "19", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "42", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "42", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "39", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "39", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "25", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "25", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "22", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "22", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "20", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "19", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "7", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "7", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "4", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "4", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "3", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "3", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "65", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "44", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "55", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "55", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "52", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "52", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "46", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "19", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "25", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "25", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "24", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "23", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "24", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "24", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "16", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "16", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "9", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "9", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "108", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "62", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "101", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "44", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "67", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "67", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "67", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "67", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "49", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "49", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "45", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "44", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "45", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "45", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "17", 
+    "event_name": "transfer", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "17", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "11", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "11", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-10-26", 
+    "receipts_with_event": "1", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_RECEIPT_ID", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "61", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "43", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "51", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "51", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "45", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "45", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "32", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "8", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "19", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "19", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "19", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "19", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "15", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "15", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "12", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "12", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "4", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "4", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "99", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "64", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "87", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "87", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "68", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "68", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "38", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "38", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "38", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "38", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "34", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "13", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "33", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "33", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "14", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "14", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "7", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "7", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "6", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "6", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_RECEIPT_ID", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "5", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "5", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "176", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "115", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "141", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "141", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "123", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "123", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "36", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "36", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "36", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "36", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "30", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "30", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "22", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "9", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "14", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "14", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "11", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "11", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "4", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "4", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "2", 
+    "event_name": "native_withdraw", 
+    "observed_date": "2026-11-03", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "93", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "67", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "91", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "91", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "67", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "67", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "30", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "30", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "30", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "30", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "29", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "29", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "12", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "12", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "5", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "5", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "3", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "public_key_added", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "0"
+  }, 
+  {
+    "event_log_count": "159", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "91", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "115", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "115", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "93", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "93", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "42", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "42", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "30", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "30", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "29", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "29", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "16", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "16", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "8", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "3", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "7", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "7", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "1", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_RECEIPT_ID", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "1", 
+    "event_name": "mt_withdraw", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "1", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "8"
+  }, 
+  {
+    "event_log_count": "188", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "133", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "167", 
+    "event_name": "intents_executed", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "167", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "135", 
+    "event_name": "mt_transfer", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "135", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "52", 
+    "event_name": "mt_mint", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "52", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "51", 
+    "event_name": "ft_withdraw", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "51", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "51", 
+    "event_name": "mt_burn", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "51", 
+    "schema_version": "1.0.0", 
+    "standard": "nep245", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "16", 
+    "event_name": "transfer", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "16", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "FAILURE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "11", 
+    "event_name": "storage_deposit", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "11", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }, 
+  {
+    "event_log_count": "6", 
+    "event_name": "token_diff", 
+    "observed_date": "2026-11-11", 
+    "receipts_with_event": "2", 
+    "schema_version": "0.4.3", 
+    "standard": "dip4", 
+    "status": "SUCCESS_VALUE", 
+    "utc_hour": "16"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "needed": "A dated, independently documented event and continuous comparable volume, fee and attribution observations before, during and after it.",
+  "reason": "Short, nonconsecutive windows do not establish a volatile week, continuous before/after volume, or independently verified account exits.",
+  "sample_count": 555,
+  "sampled_dates": [
+    "2026-09-16",
+    "2026-09-24",
+    "2026-10-02",
+    "2026-10-10",
+    "2026-10-18",
+    "2026-10-26",
+    "2026-11-03",
+    "2026-11-11"
+  ],
+  "source": "sampling.json and cached Explorer windows; linked public NEAR transaction graphs",
+  "status": "not_established",
+  "verified_departures": null,
+  "verified_stress_event": null,
+  "window_minutes": 2,
+  "windows": 24
+}

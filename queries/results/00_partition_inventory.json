@@ -1,0 +1,6 @@
+[
+  {"first_partition":"20200723","latest_partition":"20261113","table_name":"execution_outcomes"},
+  {"first_partition":"20200723","latest_partition":"20261113","table_name":"receipt_details"},
+  {"first_partition":"20200723","latest_partition":"20261113","table_name":"receipt_origin_transaction"},
+  {"first_partition":"20200723","latest_partition":"20261113","table_name":"transactions"}
+]

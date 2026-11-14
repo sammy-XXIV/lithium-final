@@ -39,9 +39,7 @@ With the package installed, `python -m unittest discover -s tests` runs the rese
 
 Open the dashboard's durability section and vary assumed attribution, departures among the largest observed accounts, and volume change. It reports sample-scope volume exposure, annualized gross fees and captured revenue at risk, and a remaining-revenue range. Unknown attribution stays in both endpoints. The historical slice ranges and the absence of verified exits are shown beside the controls.
 
-Fee/revenue dollar scenarios use [near-thesis Q5](https://github.com/soldanoandrea/near-thesis/blob/13b580f37e97d04fa0403f5c1a785f962886bddd/thesis/THESIS.md#q5-fees-and-the-take-rate): **$70.24M gross fees and $19.19M captured revenue**, trailing 90 days annualized as of 2026-10-31. These are external published inputs, not Lithium measurements. [Citation and assumptions](data/inputs/economic-baseline.json).
-
-The model assumes no replacement/rerouting, constant fee yield and that the sample account mix applies to revenue-bearing activity. Moving attribution retains observed account weights. Actual lost revenue can be zero if activity is replaced. **Scenarios, not predictions. Not financial advice.**
+Dollar scenarios use separately credited external annualized inputs. They assume no replacement; replacement can reduce actual loss to zero. **Scenarios, not predictions.** See the source paragraph below and the consolidated assumptions in Limitations.
 
 ## What follows from the evidence?
 
@@ -49,12 +47,12 @@ Do not infer independent solver diversification from gross swap volume. The larg
 
 ## Limitations
 
-- **Sampling:** 24 two-minute windows, 48 minutes on eight dates; a convenience sample, not continuous days or a protocol-wide census.
-- **Method:** attribution requires supported schemas, matching intent hashes and exact two-account fee-adjusted token closure. Ambiguous executions remain unknown, so missing attribution partly reflects the method.
-- **Hidden activity:** confidential settlement and unlinked executions limit visibility. The common treasury is never labeled a solver.
-- **Identity:** account IDs can be aliases; independent operators and maker replacement are unverified.
-- **Fees and sources:** Explorer USD values and public RPC records underpin the analysis. Referral/app-fee parameters are not measured USD fee revenue; BigQuery is an independent event inventory, not swap-level reconciliation.
-- **Scenarios:** hypothetical disclosures and exclusions are not predictions, confidence intervals or observed solver-exit effects. Not financial advice.
+- **Sampling and stress:** 24 two-minute windows, 48 minutes on eight nonconsecutive dates; a convenience sample, not continuous days or a protocol-wide census. No volatile week, documented solver exit or continuous before/during/after volume and fee series is established. An account missing from a short window is not a verified exit. [Stress assessment](docs/data/stress-evaluation.json).
+- **Method and visibility:** attribution requires supported schemas, matching intent hashes and exact two-account fee-adjusted token closure. Ambiguous executions remain unknown, so missing attribution partly reflects the method. Confidential settlement and unlinked executions limit visibility; the common treasury is never labeled a solver. The old zero-attribution result was corrected, using the same evidence, as documented in the [classifier audit](docs/ATTRIBUTION_AUDIT.md).
+- **Identity and bounds:** account IDs can be aliases; independent operators and maker replacement are unverified. The attributable subset cannot stand in for unknown volume. Model-free lower bounds allow divisible unknown USD and arbitrarily many accounts; they can be unattained infima. The separate one-swap/one-filler scenario is unverified. These are uncertainty ranges, not confidence intervals.
+- **Fees and sources:** Explorer USD values and public RPC records underpin the analysis. Referral/app-fee parameters are not measured USD fee revenue; BigQuery is an independent event inventory, not swap-level reconciliation or private FAR attribution. External gross fees include affiliate fees and differ from captured revenue. The cited annualized inputs have not been independently reconciled by Lithium and have a different period and denominator from this sample. Token-holder value capture, buybacks and a token valuation are not established here.
+- **Scenario assumptions:** no replacement/rerouting, constant fee yield and capture, and unverified application of the sampled account mix to revenue-bearing activity. Moving assumed attribution retains observed account weights. Actual lost revenue can be zero after replacement. Departures count accounts; authenticated operator mappings do not automatically regroup them, and there is no replacement-rate control. Disclosure entries assume independent operators, disjoint full-denominator shares and authenticated records; entering them authenticates nothing. Full disclosure can reveal high concentration.
+- **Interpretation and reproducibility:** hypothetical disclosures and post-hoc trade/date exclusions are not forecasts or observed solver-exit effects. The data-only command checks arithmetic and presentation from shipped classifications; the separate receipt replay checks their derivation from the bundled public responses. Neither authenticates private settlements. Additional archived collection is excluded. User adoption and actual investment-decision impact remain unvalidated. Not financial advice.
 
 ## Breaking points
 
@@ -73,12 +71,8 @@ Private settlement can coexist with diverse, competitive makers. Public attribut
 
 The [Vox interface](https://github.com/sammy-XXIV/vox) was first built for another hackathon. Lithium builds on that prior interface work for presentation. New for NEAR: Explorer collection, receipt linkage and fee-netted attribution, committed evidence snapshots, USD coverage and account-concentration bounds, sensitivity analysis, an uncertainty-aware durability scenario view, BigQuery event inventory and the investment thesis. The static interface includes no voice, live agent or API-key feature.
 
-The closest related entry is [Andrea Soldano's near-thesis](https://github.com/soldanoandrea/near-thesis), a broader NEAR usage, revenue, dilution and valuation study. Lithium focuses on executing-account attribution and the uncertainty around solver dependence. External figures, when used, are identified separately from Lithium's measurements. Its code, prose and structure are not incorporated.
+Andrea Soldano's [near-thesis valuation argument](https://github.com/soldanoandrea/near-thesis/blob/13b580f37e97d04fa0403f5c1a785f962886bddd/thesis/THESIS.md#valuation-ranges-and-priors-not-a-price-target) makes the treatment of Intents revenue central to NEAR's valuation while testing whether value capture can offset issuance. Lithium examines one assumption beneath revenue durability: whether public settlement evidence verifies diversified solver supply. Its revenue scenarios use that same pinned file's Q5 published inputs of **$70.24M annualized gross fees and $19.19M annualized captured revenue**, measured over the trailing 90 days as of 2026-10-31. The figures and file hash were checked against the source; this verifies the citation, not the underlying economics. [Source hash, units and assumptions](data/inputs/economic-baseline.json). Credit is for the valuation argument and numeric inputs; no external code, prose or structure was copied.
 
 [Executed BigQuery SQL and provenance](queries/02_sample_window_event_inventory.sql) · [Classifier correction and real-receipt audit](docs/ATTRIBUTION_AUDIT.md) · [Snapshot custody](snapshots/README.md)
 
 Own project code: [MIT](LICENSE).
-
-## Real stress event: not established
-
-The current 24 short, nonconsecutive windows do not identify a volatile week or independently documented solver exit. There is no continuous before/during/after volume and fee series. Missing an account in a two-minute window is not evidence that it left the market. The trade/date exclusions are sensitivity analyses, not historical stress-event results. [Scope and assessment](docs/data/stress-evaluation.json).

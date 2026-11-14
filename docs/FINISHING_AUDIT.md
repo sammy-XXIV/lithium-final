@@ -48,3 +48,11 @@ README and THESIS now connect settlement, ownership/aliases, coverage, economics
 ## Stage 5 — breaking points
 
 Added explicit evidence-condition/verdict consequences, using the existing coverage and width gates rather than new fitted thresholds. Complete authenticated coverage/mapping permits measuring sample operator concentration, not assuming diversification. Verified aliases change the identity interpretation; complete replacement at unchanged captured-fee yield contradicts the event's no-replacement loss scenario. Gates: analytical build PASS; 31 Python tests PASS; both JavaScript scenario checks and Pages browser checks PASS; diff check PASS. Remaining: stages 6–7.
+
+## Stage 6 — credit and consolidated qualifications
+
+Added original credited paragraphs linking Andrea Soldano's pinned `thesis/THESIS.md` valuation argument. Retrieved the actual pinned file and verified SHA-256 `d08a0c25e86ed9eb387ebfaad1e876e560c7be8e4707d3b1b84c7e6539f0bf30`; Q5 contains the cited $70.24M gross-fee and $19.19M captured-revenue annualized inputs. No new valuation numbers, external code, prose or document structure were incorporated. Citation verification is explicitly distinguished from independent economic reconciliation.
+
+README and THESIS each have one detailed Limitations section, retaining sampling, method, attribution/identity, bounds, source/economics, warehouse, scenario, stress, adoption and reproduction qualifications. Essential distinctions remain beside the claims. Review also corrected the data-only verifier's per-field diagnostic for absent nullable summary keys, after a failing regression demonstrated it; the overall file comparison already rejected the mismatch. No measurement rule changed.
+
+Gates: analytical build PASS; 32 Python tests PASS, including the added nullable-field regression and receipt replay; both JavaScript scenario checks and Pages browser checks PASS; diff check PASS. Remaining: stage 7 only.

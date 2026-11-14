@@ -58,6 +58,16 @@ class PublishedReproductionTests(unittest.TestCase):
         self.assertFalse(success)
         self.assertIn('FAIL data/coverage-date.csv', log)
 
+    def test_extra_nullable_summary_field_is_reported_as_mismatch(self):
+        def mutate(data):
+            path = data / 'summary.json'
+            summary = json.loads(path.read_text(encoding='utf-8'))
+            summary['unexpected_null'] = None
+            path.write_text(json.dumps(summary), encoding='utf-8')
+        success, log, _ = self.run_build(mutate)
+        self.assertFalse(success)
+        self.assertIn('FAIL summary.json: unexpected_null', log)
+
 
 if __name__ == '__main__':
     unittest.main()

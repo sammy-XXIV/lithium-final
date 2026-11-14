@@ -82,7 +82,8 @@ def reproduce(data, output):
         for name in ('SPIKE_RESULT.md', 'ATTRIBUTION_AUDIT.md'):
             shutil.copyfile(data.parent / name, output / name)
         expected, actual = read_json(data / 'summary.json'), report['summary']
-        differences = sorted(key for key in expected.keys() | actual.keys() if expected.get(key) != actual.get(key))
+        differences = sorted(key for key in expected.keys() | actual.keys()
+                             if key not in expected or key not in actual or expected[key] != actual[key])
         success = not differences
         print(('FAIL' if differences else 'PASS') + ' summary.json' + (': ' + ', '.join(differences) if differences else ' (every field)'))
         for path in sorted(p for p in output.rglob('*') if p.is_file()):

@@ -1,6 +1,10 @@
 # Lithium
 
-**Solver diversification remains unverified. Public receipts attribute 235 of 555 sampled swaps to 15 executing account IDs; those IDs are not verified independent operators.**
+Lithium checks public records to see which accounts fill token swaps.<br>
+It identifies some accounts, but cannot verify that separate accounts have independent owners.<br>
+Do not assume a diverse supply of trade makers without complete execution and ownership evidence.
+
+**Solver diversification (activity spread across independent trade makers) remains unverified. Public receipts attribute 235 of 555 sampled swaps to 15 executing account IDs; those IDs are not verified independent operators.**
 
 Discount any investment thesis relying on diversified, durable solver supply until authenticated settlement links, operator mappings and full disclosure coverage support it. Lithium makes the observed account exposure and the effect of missing evidence reproducible.
 
@@ -19,7 +23,7 @@ Discount any investment thesis relying on diversified, durable solver supply unt
 
 | Request and verify | Request from | Calculator scenario it changes |
 | --- | --- | --- |
-| ☐ Authenticated swap/intent IDs linked to executed account deltas, amounts and timestamps, including confidential settlement | NEAR Intents/1Click settlement maintainers and authorized FAR record holders; independently check signatures and linkage | Disclosure shares; revenue scenario's assumed attribution, after reconciling sampled USD |
+| ☐ Authenticated swap/intent IDs linked to executed account deltas, amounts and timestamps, including confidential settlement | NEAR Intents/1Click settlement maintainers and authorized FAR (the private chain where Confidential Intents executes swaps) record holders; independently check signatures and linkage | Disclosure shares; revenue scenario's assumed attribution, after reconciling sampled USD |
 | ☐ Signed account ownership, aliases and independently checked account-to-operator mappings | Each participating maker/operator, corroborated by a reviewer independent of that operator | Group aliases before entering hypothetical operator shares in the disclosure calculator |
 | ☐ Complete export scope, total USD denominator, omitted records and explanations for unmatched volume | Explorer/1Click data maintainers and the settlement export provider | Disclosure calculator's unknown remainder; never treat selective disclosures as full coverage |
 | ☐ Gross-fee versus captured-revenue reconciliation, wallet inflows and measurement period | Revenue-wallet stewards and the maintainers of the cited economics dataset | Revenue scenarios' annualized fee/revenue baseline; a sourced rebuild is required to change these fixed inputs |
@@ -30,6 +34,16 @@ Use the [disclosure calculator](https://sammy-xxiv.github.io/lithium-final/#deci
 ## Reproduce offline
 
 With Python 3.11+, run `make reproduce` (or `python tools/reproduce_tables.py` without make). This regenerates every published analytical table/chart from `docs/data`, prints PASS/FAIL against every summary field and generated file, and exits nonzero on a mismatch. No package installation, credentials or network is required. Open `reproduced/from-data/index.html`.
+
+On Linux/macOS, a fresh clone can run:
+
+```sh
+make reproduce
+PYTHONPATH=src make test
+python3 tools/check_attribution_audit.py
+```
+
+Make defaults to `python3`; use `make PYTHON=python reproduce` if your interpreter is named `python`. The last command replays the historical and current attribution rules on the same snapshot and prints the worked receipt's exact token arithmetic.
 
 For a separate replay of account attribution from original receipts, run `python tools/reproduce.py`. The committed snapshot includes all 555 swaps and 1,333 complete linked transaction graphs. The data-only build takes classifications as inputs; the receipt replay verifies how they were derived. Archived extra collection and historical audit records are provenance inputs, not newly measured results.
 
@@ -47,12 +61,51 @@ Do not infer independent solver diversification from gross swap volume. The larg
 
 ## Limitations
 
-- **Sampling and stress:** 24 two-minute windows, 48 minutes on eight nonconsecutive dates; a convenience sample, not continuous days or a protocol-wide census. No volatile week, documented solver exit or continuous before/during/after volume and fee series is established. An account missing from a short window is not a verified exit. [Stress assessment](docs/data/stress-evaluation.json).
-- **Method and visibility:** attribution requires supported schemas, matching intent hashes and exact two-account fee-adjusted token closure. Ambiguous executions remain unknown, so missing attribution partly reflects the method. Confidential settlement and unlinked executions limit visibility; the common treasury is never labeled a solver. The old zero-attribution result was corrected using the same evidence. The final [schema review](docs/ATTRIBUTION_AUDIT.md#final-schema-review--2026-11-14) found no remaining unsupported version/event combinations in the bundled successful DIP4 logs; 126 public swaps remain ambiguous and 101 have no linked settlement. No new schema rule was added.
-- **Identity and bounds:** account IDs can be aliases; independent operators and maker replacement are unverified. The attributable subset cannot stand in for unknown volume. Model-free lower bounds allow divisible unknown USD and arbitrarily many accounts; they can be unattained infima. The separate one-swap/one-filler scenario is unverified. These are uncertainty ranges, not confidence intervals.
-- **Fees and sources:** Explorer USD values and public RPC records underpin the analysis. Referral/app-fee parameters are not measured USD fee revenue; BigQuery is an independent event inventory, not swap-level reconciliation or private FAR attribution. External gross fees include affiliate fees and differ from captured revenue. The cited annualized inputs have not been independently reconciled by Lithium and have a different period and denominator from this sample. Token-holder value capture, buybacks and a token valuation are not established here.
-- **Scenario assumptions:** no replacement/rerouting, constant fee yield and capture, and unverified application of the sampled account mix to revenue-bearing activity. Moving assumed attribution retains observed account weights. Actual lost revenue can be zero after replacement. Departures count accounts; authenticated operator mappings do not automatically regroup them, and there is no replacement-rate control. Disclosure entries assume independent operators, disjoint full-denominator shares and authenticated records; entering them authenticates nothing. Full disclosure can reveal high concentration.
-- **Interpretation and reproducibility:** hypothetical disclosures and post-hoc trade/date exclusions are not forecasts or observed solver-exit effects. The data-only command checks arithmetic and presentation from shipped classifications; the separate receipt replay checks their derivation from the bundled public responses. Neither authenticates private settlements. Additional archived collection is excluded. User adoption and actual investment-decision impact remain unvalidated. Not financial advice.
+**Sampling and stress**
+
+- The sample covers 24 two-minute windows: 48 minutes on eight nonconsecutive dates. It is a convenience sample, not a census or continuous observation.
+- No volatile week, documented solver exit or continuous before/during/after volume and fee series is established.
+- An account missing from a short window is not a verified exit. [Stress assessment](docs/data/stress-evaluation.json).
+
+**Attribution and visibility**
+
+- Attribution needs recognized event formats, matching intent identifiers and exactly two accounts whose token balances close after reported fees.
+- Ambiguous executions stay unknown. Some missing attribution reflects the method, not privacy.
+- Confidential execution and missing settlement links limit visibility. The shared treasury is never labeled a solver.
+- DIP4 is the structured event-log format used by NEAR Intents. All observed version/event combinations in the bundled successful DIP4 logs are supported.
+- Still, 126 public swaps are ambiguous and 101 have no linked settlement. No further schema rule was added.
+- The old zero result was corrected on the same evidence. [Replay, defects and concrete receipt](docs/ATTRIBUTION_AUDIT.md).
+
+**Identity and concentration ranges**
+
+- Different account IDs can have the same owner. Independent operators and replacement by other makers remain unverified.
+- The attributable subset cannot represent the unknown volume.
+- Model-free lower bounds are mathematical floors based on observed data, without assuming how unknown volume is allocated. They allow divisible unknown USD and arbitrarily many accounts.
+- Some floors can be approached but not reached with a finite allocation: an **unattained infimum**. They need not be realizable outcomes for these swaps.
+- HHI (Herfindahl–Hirschman Index) sums squared volume shares on a 0–1 scale; higher values mean greater concentration. Bound width is the gap between the lowest and highest permitted values.
+- The one-swap/one-filler scenario is unverified. These ranges describe missing information, not statistical confidence intervals.
+
+**Sources and economics**
+
+- The analysis relies on Explorer USD values and public RPC responses (a node's returned transaction records).
+- Referral and app-fee fields do not measure fee revenue. BigQuery separately counts public events; it neither reconciles individual swaps nor identifies private FAR executions.
+- External gross fees include affiliate fees and differ from captured revenue. Lithium has not independently reconciled these annualized inputs.
+- The external economics cover a different period and denominator. Token-holder value capture, buybacks and a token valuation are not established here.
+
+**Scenario assumptions**
+
+- Revenue scenarios assume no replacement or rerouting, constant fee yield and capture, and that the sample's account mix applies to revenue-bearing activity.
+- Changing assumed attribution keeps the observed account weights. Actual lost revenue can be zero after replacement.
+- Departures count accounts. Operator mappings do not automatically regroup them; there is no replacement-rate control.
+- Disclosure entries assume independent operators, authenticated records and non-overlapping shares of the entire denominator. Entering shares authenticates nothing.
+- Complete disclosure can reveal high concentration.
+
+**Interpretation and reproduction**
+
+- Hypothetical disclosures and trade/date exclusions chosen after inspecting the data are not forecasts or measured solver-exit effects.
+- The data-only build checks arithmetic and presentation from published classifications. The separate receipt replay checks how those classifications were derived.
+- Neither command authenticates private settlements. Additional archived collection is excluded.
+- User adoption and actual investment-decision impact remain unvalidated. Not financial advice.
 
 ## Breaking points
 

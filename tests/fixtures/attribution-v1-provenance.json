@@ -1,0 +1,11 @@
+{
+  "baseline_commit": "79b1803346416e4a0b5cbd55eb1776653778b0be",
+  "source_path": "src/solverline/resolve_fillers.py",
+  "original_source_sha256": "9cdedcf3bfd47db5430d86ff3d5dffae3d56d84d7238ef4265209dd24aa1f227",
+  "extract_sha256": "833f07ddfdc3c2463f3f6dcb81b4977c7efbf2c654bdd272f27cb398e9833297",
+  "shared_final_result_source_sha256": "7c6d4c04de68a6eb33b06dec8e9b40fb74dd4bf7f243fc820d4746bf0309d14e",
+  "config_sha256": "82a72c4044e96df50cb8a0eda0d8d54cc175ae8dab034fa5d6e61af50b3a5124",
+  "rpc_sha256_map_sha256": "99955a983afa2ea9df77670b256b6dd514c1011e721704bcfd91c8d2c5137814",
+  "explorer_windows_sha256": "3d67a1cd07295712b1164473be3a6ea99a6576a542c09449a440a297af1cdec2",
+  "note": "Exact classify_swap and _positive source extract; shared final_result helper has identical AST in the historical and current versions. Before-history source was recovered from the preserved local Git archive; the public release does not contain that Git object."
+}

@@ -44,6 +44,8 @@ Source: [swap-level CSV](data/swaps.csv), [exact summary](data/summary.json), [r
 
 The final bundled-schema inventory found no remaining unsupported version/event combinations in successful `intents.near` DIP4 logs. The observed 0.3.0, separately versioned 0.3.1 `intents_executed`, and 0.4.3 events are already supported. No new parser rule was added; attribution remains 235 of 555 swaps. This does not assert support for every protocol schema outside the bundle. [Final schema-review scope](ATTRIBUTION_AUDIT.md#final-schema-review--2026-11-14).
 
+Run `python3 tools/check_attribution_audit.py` to execute the frozen historical attribution function and the current function on the same hash-checked snapshot. It reproduces the zero-to-235 correction and checks the worked receipt's exact fee-adjusted token arithmetic. The [audit](ATTRIBUTION_AUDIT.md) names the defects, transaction, receipt, intent and executing accounts, and distinguishes archived source provenance from independent verification. Regression tests also reject a changed token unit and a third participant in that real receipt.
+
 [Open the observed attribution coverage](index.html#coverage).
 
 ### What the bounds establish

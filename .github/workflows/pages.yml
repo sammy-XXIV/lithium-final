@@ -24,6 +24,8 @@ jobs:
         # checkout is clean; no cache, snapshot extraction, installation or secrets are needed here.
       - name: Reproduce research without credentials
         run: python tools/reproduce.py
+      - name: Replay the attribution correction on identical evidence
+        run: python tools/check_attribution_audit.py
       - name: Research regression checks
         run: python -m unittest discover -s tests
         env:

@@ -143,7 +143,7 @@ class RpcCache:
     def _request(self, txhash):
         # OS curl provides a total wall-time deadline, including DNS and slow body
         # streams. A Python socket timeout alone only bounds individual operations.
-        executable = shutil.which('curl.exe') or shutil.which('curl')
+        executable = shutil.which('curl.exe' if os.name == 'nt' else 'curl')
         if not executable:
             raise RuntimeError('curl is required for bounded RPC fetches; offline rebuilds do not require it')
         payload = json.dumps({'jsonrpc': '2.0', 'id': 'solverline', 'method': 'EXPERIMENTAL_tx_status',

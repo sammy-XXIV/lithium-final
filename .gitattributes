@@ -5,3 +5,6 @@ docs/data/bigquery/* -text -whitespace
 sampling*.json -text -whitespace
 docs/data/expanded* -text -whitespace
 tools/export-expanded-cloudshell.sh text eol=lf
+
+# Preserve the frozen historical classifier's recorded source checksum.
+tests/fixtures/classifier_v1.py text eol=lf

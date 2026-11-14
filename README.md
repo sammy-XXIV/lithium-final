@@ -1,10 +1,19 @@
 # Lithium
 
-**Public receipts attribute 28.37% of $836,107.52 across 555 sampled NEAR Intents swaps to 15 executing accounts; the full-sample top-three account share remains 25.91–97.53%.**
+**Solver diversification remains unverified. Public receipts attribute 235 of 555 sampled swaps to 15 executing account IDs; those IDs are not verified independent operators.**
 
-Lithium tests whether public evidence supports diversified, durable solver supply behind NEAR Intents revenue. **71.63% of sampled USD remains unattributed.** Executing accounts are not verified independent operators; solver dependence cannot be fully audited from these public records.
+Discount any investment thesis relying on diversified, durable solver supply until authenticated settlement links, operator mappings and full disclosure coverage support it. Lithium makes the observed account exposure and the effect of missing evidence reproducible.
 
-[Dashboard](https://sammy-xxiv.github.io/lithium-final/) · [Investment thesis](THESIS.md) · [Short brief](docs/INVESTMENT_BRIEF.md) · [Methods](docs/RESEARCH_GUIDE.md)
+[Disclosure calculator](https://sammy-xxiv.github.io/lithium-final/#decision) · [Revenue scenarios](https://sammy-xxiv.github.io/lithium-final/#durability) · [Investment thesis](THESIS.md)
+
+| Do X | See Y |
+| --- | --- |
+| Run `make reproduce` or `python tools/reproduce_tables.py` | PASS/FAIL for every summary field and regenerated analytical table/chart; open `reproduced/from-data/index.html` |
+| Enter operator shares in the disclosure calculator | How hypothetical coverage changes concentration bounds |
+| Vary attribution, departures and volume in revenue scenarios | Conditional exposure and remaining revenue ranges |
+| Run `python tools/reproduce.py` | Replay attribution from the original bundled receipts for the same 555 swaps |
+
+[Sample evidence](docs/data/swaps.csv) · [Exact figures](docs/data/summary.json) · [Short brief](docs/INVESTMENT_BRIEF.md) · [Methods](docs/RESEARCH_GUIDE.md)
 
 ## What an analyst should demand
 
@@ -23,13 +32,7 @@ With Python 3.11+, run `make reproduce` (or `python tools/reproduce_tables.py` w
 
 For a separate replay of account attribution from original receipts, run `python tools/reproduce.py`. The committed snapshot includes all 555 swaps and 1,333 complete linked transaction graphs. The data-only build takes classifications as inputs; the receipt replay verifies how they were derived. Archived extra collection and historical audit records are provenance inputs, not newly measured results.
 
-| Do X | See Y |
-| --- | --- |
-| `python tools/reproduce.py` | Hash checks, all published summary fields and sensitivity checks verified |
-| Open `reproduced/docs/index.html` | Static dashboard, charts, evidence tables and arithmetic check; works directly from disk |
-| Open `docs/data/swaps.csv` | All sampled swaps, classification reasons, amounts and transaction links |
-| Open `docs/INVESTMENT_BRIEF.md` | Account recurrence, trade/date exclusions and uncertainty |
-| `python -m pip install -e .` then `python -m unittest discover -s tests` | Research regression checks; installation is optional for reproduction |
+With the package installed, `python -m unittest discover -s tests` runs the research regression checks. Installation is optional for both reproduction commands; `PYTHONPATH=src` also supports the tests.
 
 ## Interactive durability scenarios
 

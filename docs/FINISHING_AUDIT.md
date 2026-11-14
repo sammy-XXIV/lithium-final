@@ -34,3 +34,9 @@ No removal was necessary in this release. The baseline gates apply to the identi
 Added `make reproduce` / `python tools/reproduce_tables.py`, using only shipped public data for the analytical build. It reconstructs all analysis products through the existing arithmetic and renderer, checks every summary field, and compares all regenerated files. Deliberate summary/table corruption tests fail as expected. Shared embedded JSON serialization is now deterministic; no values or classification rules changed. Removed two unshipped research-guide screenshot links.
 
 Gates: data-only regeneration PASS; raw-snapshot replay PASS; 31 Python tests PASS; both JavaScript scenario checks PASS; browser checks PASS over HTTP and file URLs at desktop/mobile sizes; `git diff --check` PASS. CI now runs the data-only command from a clean Actions checkout, the receipt replay, tests and browser check before assembling Pages. PRs verify without deploying. The changed workflow has not been run on GitHub because nothing has been pushed. Windows has no make installed here; the identical Python target was executed locally.
+
+The data-only command was also run successfully from a new clean local clone after the stage 2 commit, with a clean working tree afterward.
+
+## Stage 3 — README opening
+
+The opening now leads with unverified solver diversification, the supported 235-of-555 account attribution, the investment consequence, calculator links and a Do X / see Y table. No observed operator count is asserted. Gates: analytical build PASS; 31 Python tests PASS (including snapshot replay); both JavaScript scenario checks and Pages browser checks PASS; diff whitespace check PASS. Remaining: stages 4–7.

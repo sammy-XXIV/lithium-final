@@ -145,7 +145,7 @@ def write_csv(path, rows, fields=None):
         writer.writerows(rows)
 
 
-def analyze(rows, manifest, directory=None):
+def analyze(rows, manifest, directory=None, *, identity=swap_id):
     from .sensitivity import sensitivity
     directory = Path(directory or ROOT / 'data/derived')
     directory.mkdir(parents=True, exist_ok=True)
@@ -189,8 +189,8 @@ def analyze(rows, manifest, directory=None):
                 fees[recipient][1] += value
             if row.get('filler_account') and row.get('attribution_status') == 'attributed':
                 accounts[row['filler_account']] += value
-        identity = swap_id(row)
-        shipped.append({'swap_id': identity, 'created_at': row['createdAt'], 'window': row['sample_window'],
+        row_identity = identity(row)
+        shipped.append({'swap_id': row_identity, 'created_at': row['createdAt'], 'window': row['sample_window'],
                         'origin_asset': row['originAsset'], 'destination_asset': row['destinationAsset'],
                         'size_bin': size_bin(value), 'input_usd': text(value), 'settlement_class': row['settlement_class'],
                         'attribution_status': row['attribution_status'], 'filler_account': row['filler_account'],
@@ -198,7 +198,7 @@ def analyze(rows, manifest, directory=None):
                         'tx_available': row['tx_available'], 'reason': row['reason'],
                         'referral': row.get('referral'), 'fee_recipients': json.dumps(sorted({f['recipient'] for f in row.get('appFees', []) if f.get('recipient')})),
                         'near_tx_hashes': json.dumps(row.get('nearTxHashes', [])), 'source_file': row['source_file']})
-        evidence.append({'swap_id': identity, 'settlement_class': row['settlement_class'], 'reason': row['reason'],
+        evidence.append({'swap_id': row_identity, 'settlement_class': row['settlement_class'], 'reason': row['reason'],
                          'intent_hashes': row.get('intentHashes'), 'near_tx_hashes': row.get('nearTxHashes', []),
                          'events': row['evidence']})
     distributions = {}
@@ -213,7 +213,7 @@ def analyze(rows, manifest, directory=None):
     write_json(directory / 'evidence.json', evidence)
     write_json(directory / 'summary.json', summary)
     write_json(directory / 'manifest.json', manifest)
-    checks = sensitivity(rows)
+    checks = sensitivity(rows, identity=identity)
     write_json(directory / 'sensitivity.json', checks)
     write_csv(directory / 'sensitivity.csv', checks['scenarios'])
     write_csv(directory / 'account-persistence.csv', checks['accounts'],

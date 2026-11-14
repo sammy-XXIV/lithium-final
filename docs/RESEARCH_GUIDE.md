@@ -17,7 +17,7 @@ The disclosure calculator models a separate hypothetical dataset: each percentag
 
 The two examples illustrate why **coverage and concentration are different questions**. They are calculator outputs under stated assumptions, not observations about real solvers.
 
-![Lithium's due-diligence panel with a clearly labeled hypothetical disclosure scenario; the observed verdict reports partial attribution and unverified operator independence](images/lithium-disclosure.png)
+[Open the disclosure calculator](index.html#decision).
 
 Run its mathematical boundary checks with `node tools/check-disclosure.cjs`. It works entirely in the browser, including the standalone offline dashboard, and sends no scenario inputs to a server.
 
@@ -42,7 +42,7 @@ Source: [swap-level CSV](data/swaps.csv), [exact summary](data/summary.json), [r
 
 **The original zero-attribution headline was partly a tooling defect.** We corrected missing support for intents_executed 0.3.1 and aggregate complete two-account executions, including intermediary tokens and reported fees. Every token must balance exactly after fees. The 126 remaining ambiguous public swaps involve unsupported attribution structures, while 101 swaps lack linked settlement evidence. Privacy does not explain every unknown. See the [full correction and real-receipt audit](ATTRIBUTION_AUDIT.md).
 
-![Lithium's unified research tab, showing the observed sample and attribution coverage](images/lithium-research.png)
+[Open the observed attribution coverage](index.html#coverage).
 
 ### What the bounds establish
 
@@ -79,6 +79,10 @@ python -m unittest discover -s tests -v
 
 
 ### Rebuild or fetch the research
+
+For the offline analytical build, run `make reproduce`, or `python tools/reproduce_tables.py` on systems without make. It reconstructs all analytical tables, sensitivity checks, warehouse tables, charts, model inputs, results and the investment brief from `docs/data`; it prints PASS/FAIL for every summary field and generated file. Output is `reproduced/from-data/index.html`. It reuses the existing arithmetic and renderer without changing classifications or the denominator. JSON object order in the embedded model is canonicalized so source-file key order cannot change the generated page. Transport CRLF/LF differences are normalized for comparison; other bytes must match.
+
+This is an arithmetic and presentation check. It trusts the shipped classifications, pseudonymous swap IDs and receipt evidence; it cannot independently authenticate private settlements or recover deposit identities. The separate snapshot replay below reruns the classifier and deposit-identity hashing. Historical audit and excluded extra-collection files remain provenance inputs and are not reclassified or expanded by either command. CI starts from a clean checkout, runs both offline commands, regression tests and the Pages browser checks. No local cache or credentials are restored.
 
 A fresh clone includes all 555 baseline swaps and all 1,333 transaction response graphs in a sanitized, hashed snapshot. With Python 3.11+, no package installation, credentials or network:
 

@@ -6,12 +6,13 @@ import math
 from .pull_explorer import ROOT
 
 
-def make_inputs(report):
+def make_inputs(report, economic=None):
     summary = report['summary']
     dates = sorted(report['breakdowns']['date'], key=lambda r: r['label'])
     coverage = [float(r['attributable_share']) for r in dates if r['attributable_share'] is not None]
     changes = [float(b['total_usd']) / float(a['total_usd']) - 1 for a, b in zip(dates, dates[1:]) if float(a['total_usd'])>0]
-    economic = json.loads((ROOT / 'data/inputs/economic-baseline.json').read_text())
+    if economic is None:
+        economic = json.loads((ROOT / 'data/inputs/economic-baseline.json').read_text())
     return {'totalUsd': summary['total_usd'], 'accounts': report['accounts'],
             'observedCoverage': float(summary['attributable_share'] or 0),
             'dateCoverageRange': [min(coverage), max(coverage)] if coverage else None,
@@ -40,7 +41,7 @@ def render(data):
                 f'<pre>{escape(formula)}</pre><a href="data/durability-inputs.json">Model inputs</a> · '
                 '<a href="data/queries.json">Exact sample queries</a></details>')
     # Embedded data keeps the exact same model usable over file:// without fetch.
-    payload = json.dumps(data, ensure_ascii=True).replace('<', '\\u003c')
+    payload = json.dumps(data, ensure_ascii=True, sort_keys=True).replace('<', '\\u003c')
     return f'''<section id="durability" aria-labelledby="durability-title">
 <div class="section-head"><h2 id="durability-title">How much revenue could depend on departing accounts?</h2><span class="tag">Scenarios, not predictions</span></div>
 <p>Thesis to test: Intents revenue is only as durable as its solver base. This model tests a conditional exposure, not a proven causal relationship. Other makers may replace departing activity.</p>

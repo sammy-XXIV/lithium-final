@@ -181,7 +181,7 @@ def sensitivity_panel(checks):
             '<a href="INVESTMENT_BRIEF.md">Short investment brief</a></div></section>')
 
 
-def build_dashboard(report, derived=None, docs=None):
+def build_dashboard(report, derived=None, docs=None, *, inventory=None, economic=None):
     derived, docs = Path(derived or ROOT / 'data/derived'), Path(docs or ROOT / 'docs')
     destination = docs / 'data'
     destination.mkdir(parents=True, exist_ok=True)
@@ -201,7 +201,7 @@ def build_dashboard(report, derived=None, docs=None):
     (destination / 'headline.txt').write_text(headline_claim(summary) + '\n', encoding='utf-8')
     checks = json.loads((derived / 'sensitivity.json').read_text())
     (docs / 'INVESTMENT_BRIEF.md').write_text(investment_brief(checks), encoding='utf-8')
-    scenario = durability_inputs(report)
+    scenario = durability_inputs(report, economic=economic)
     write_json(destination / 'durability-inputs.json', scenario)
     write_json(destination / 'economic-baseline.json', scenario['economic'])
     stress = {'status': 'not_established', 'verified_stress_event': None,
@@ -264,7 +264,7 @@ def build_dashboard(report, derived=None, docs=None):
                              f'<td class="asset">{esc(row["origin_asset"])}<br>→ {esc(row["destination_asset"])}</td>'
                              f'<td class="num">{usd(row["input_usd"] or None)}</td><td>{esc(row["settlement_class"])}<br>'
                              f'<span class="caption">{esc(row["reason"])}</span></td><td class="tx-links">{links}</td></tr>')
-    payload = json.dumps({'csv': (derived / 'swaps.csv').read_text(encoding='utf-8'), 'summary': summary}, ensure_ascii=True).replace('<', '\\u003c')
+    payload = json.dumps({'csv': (derived / 'swaps.csv').read_text(encoding='utf-8'), 'summary': summary}, ensure_ascii=True, sort_keys=True).replace('<', '\\u003c')
     window_dates = sorted({window['start'][:10] for window in manifest['windows']})
     parse_time = lambda value: dt.datetime.fromisoformat(value.replace('Z', '+00:00'))
     minutes = sum((parse_time(w['end']) - parse_time(w['start'])).total_seconds() for w in manifest['windows']) / 60
@@ -273,7 +273,7 @@ def build_dashboard(report, derived=None, docs=None):
     bounds_source = source_details('accounts.csv', 'Let attributed account volumes be a1 >= a2 >= ..., unknown USD U, total T.\nModel-free Top-N: [sum(top N a)/T, min(1,(sum(top N a)+U)/T)].\nModel-free HHI: [sum(a²)/T², ((a1+U)²+sum(other a²))/T²].\nConditional one-swap/one-filler lower bound: treat each unattributed swap USD as one indivisible account volume and assign every one to a distinct account; preserve already attributed account totals. Upper bound assigns unknown volume to the largest known account or one new account.\nThe conditional model is not evidence that a swap has one filler. T=0 makes ratios unavailable.')
     size_source = source_details('coverage-size.csv', 'Bin on amountInUsd: [0,100), [100,1000), [1000,infinity).\nNo input/output USD API filter was applied to the main sample.')
     fee_source = source_details('fee-recipients.csv', 'For each distinct appFees.recipient on a swap, count that swap amountInUsd once.\nShares overlap and may sum above 100%. This is routed swap volume, not fee revenue.')
-    warehouse = load_inventory()
+    warehouse = inventory if inventory is not None else load_inventory()
     warehouse_section = render_inventory(warehouse, docs)
     warehouse_status = ('Executed event inventory across 24 windows; no swap-level reconciliation or solver attribution.'
                         if warehouse else 'Incomplete: no imported warehouse event inventory.')

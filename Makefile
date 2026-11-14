@@ -1,5 +1,8 @@
 # Install editable package first, or run with PYTHONPATH=src.
-.PHONY: rebuild fetch preview test
+.PHONY: reproduce rebuild fetch preview test
+
+reproduce:
+	python tools/reproduce_tables.py
 
 rebuild:
 	python -m solverline.rebuild --offline

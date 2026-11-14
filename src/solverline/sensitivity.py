@@ -5,20 +5,20 @@ from decimal import Decimal
 from .analyze import aggregate, money, ratio, text, swap_id
 
 
-def sensitivity(rows):
-    rows = sorted(rows, key=lambda r: (r['createdAt'], swap_id(r)))
+def sensitivity(rows, *, identity=swap_id):
+    rows = sorted(rows, key=lambda r: (r['createdAt'], identity(r)))
     valid = [r for r in rows if money(r.get('amountInUsd')) is not None]
     known = [r for r in valid if r.get('filler_account') and r.get('attribution_status') == 'attributed'
              and r['settlement_class'] == 'public']
-    ranking = lambda rs: sorted(rs, key=lambda r: (-money(r['amountInUsd']), r['createdAt'], swap_id(r)))
+    ranking = lambda rs: sorted(rs, key=lambda r: (-money(r['amountInUsd']), r['createdAt'], identity(r)))
     ranked, known_ranked = ranking(valid), ranking(known)
     total = sum((money(r['amountInUsd']) for r in valid), Decimal(0))
     attributed = sum((money(r['amountInUsd']) for r in known), Decimal(0))
     scenarios = []
 
     def case(name, label, removed):
-        ids = {swap_id(r) for r in removed}
-        remaining = [r for r in rows if swap_id(r) not in ids]
+        ids = {identity(r) for r in removed}
+        remaining = [r for r in rows if identity(r) not in ids]
         scenarios.append({'scenario': name, 'label': label, 'removed_count': len(removed),
                           'removed_usd': text(sum((money(r['amountInUsd']) or Decimal(0) for r in removed), Decimal(0))),
                           'removed_swap_ids': sorted(ids), **aggregate(remaining)})

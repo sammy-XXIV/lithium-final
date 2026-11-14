@@ -19,7 +19,9 @@ Use the dashboard to test assumptions while these are missing; do not treat gros
 
 ## Reproduce offline
 
-With Python 3.11+, from a fresh clone, run `python tools/reproduce.py`. No package installation, credentials or network is required. The committed snapshot includes all 555 swaps and 1,333 complete linked transaction graphs.
+With Python 3.11+, run `make reproduce` (or `python tools/reproduce_tables.py` without make). This regenerates every published analytical table/chart from `docs/data`, prints PASS/FAIL against every summary field and generated file, and exits nonzero on a mismatch. No package installation, credentials or network is required. Open `reproduced/from-data/index.html`.
+
+For a separate replay of account attribution from original receipts, run `python tools/reproduce.py`. The committed snapshot includes all 555 swaps and 1,333 complete linked transaction graphs. The data-only build takes classifications as inputs; the receipt replay verifies how they were derived. Archived extra collection and historical audit records are provenance inputs, not newly measured results.
 
 | Do X | See Y |
 | --- | --- |

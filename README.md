@@ -17,14 +17,15 @@ Discount any investment thesis relying on diversified, durable solver supply unt
 
 ## What an analyst should demand
 
-Before relying on a solver-diversification claim, request:
+| Request and verify | Request from | Calculator scenario it changes |
+| --- | --- | --- |
+| ☐ Authenticated swap/intent IDs linked to executed account deltas, amounts and timestamps, including confidential settlement | NEAR Intents/1Click settlement maintainers and authorized FAR record holders; independently check signatures and linkage | Disclosure shares; revenue scenario's assumed attribution, after reconciling sampled USD |
+| ☐ Signed account ownership, aliases and independently checked account-to-operator mappings | Each participating maker/operator, corroborated by a reviewer independent of that operator | Group aliases before entering hypothetical operator shares in the disclosure calculator |
+| ☐ Complete export scope, total USD denominator, omitted records and explanations for unmatched volume | Explorer/1Click data maintainers and the settlement export provider | Disclosure calculator's unknown remainder; never treat selective disclosures as full coverage |
+| ☐ Gross-fee versus captured-revenue reconciliation, wallet inflows and measurement period | Revenue-wallet stewards and the maintainers of the cited economics dataset | Revenue scenarios' annualized fee/revenue baseline; a sourced rebuild is required to change these fixed inputs |
+| ☐ Dated maker departure plus comparable volume, fees and replacement activity before, during and after it | Departing maker, affected integrators and NEAR Intents operations; independently corroborate the event | Revenue scenario's departures and volume change; replacement evidence tests the model's no-replacement assumption |
 
-- **Settlement links:** authenticated swap/intent IDs tied to executed account deltas and amounts, including confidential settlement.
-- **Operator mappings:** evidence connecting executing accounts to independent operators, with aliases disclosed.
-- **Coverage and economics:** complete denominators, missing-volume explanations and reconciled fees versus captured revenue.
-- **Continuity evidence:** comparable volume, fees and execution records before, during and after a documented maker departure, including replacement activity.
-
-Use the dashboard to test assumptions while these are missing; do not treat gross volume as proof of diversified solver supply.
+Use the [disclosure calculator](https://sammy-xxiv.github.io/lithium-final/#decision) and [revenue scenarios](https://sammy-xxiv.github.io/lithium-final/#durability) to test assumptions while these are missing. Revenue departures count observed accounts; operator mappings do not automatically regroup those account weights. The current model has no replacement-rate control. A hypothetical entry never updates the observed measurements.
 
 ## Reproduce offline
 

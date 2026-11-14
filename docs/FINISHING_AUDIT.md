@@ -40,3 +40,7 @@ The data-only command was also run successfully from a new clean local clone aft
 ## Stage 3 — README opening
 
 The opening now leads with unverified solver diversification, the supported 235-of-555 account attribution, the investment consequence, calculator links and a Do X / see Y table. No observed operator count is asserted. Gates: analytical build PASS; 31 Python tests PASS (including snapshot replay); both JavaScript scenario checks and Pages browser checks PASS; diff whitespace check PASS. Remaining: stages 4–7.
+
+## Stage 4 — analyst evidence requests
+
+README and THESIS now connect settlement, ownership/aliases, coverage, economics and continuity requests to responsible sources and the actual calculator assumptions. Fixed economic inputs require a sourced rebuild; account departure controls are not an operator-mapping feature, and there is no replacement-rate control. Gates: analytical build PASS; 31 Python tests PASS; both JavaScript scenario checks and Pages browser checks PASS; diff check PASS. Remaining: stages 5–7.

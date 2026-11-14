@@ -86,6 +86,18 @@ Verified evidence of low or falling operator concentration would strengthen the 
 
 ## What data would settle the unknowns
 
+### What an analyst should demand
+
+Use the [request/source/scenario checklist](README.md#what-an-analyst-should-demand) before changing an underwriting assumption:
+
+- [ ] Obtain signed settlement linkage from the settlement maintainers and authorized FAR record holders; reconcile amounts to the sampled denominator before raising assumed attribution.
+- [ ] Obtain independently corroborated ownership and alias disclosures from makers; group accounts into economic operators before entering disclosure shares.
+- [ ] Obtain complete coverage and omitted-record accounting from the export and Explorer maintainers; leave every undisclosed share unknown.
+- [ ] Obtain wallet-level fee/captured-revenue reconciliation from revenue-wallet stewards and dataset maintainers; update the cited fixed economic inputs only with reproducible evidence.
+- [ ] Obtain independently documented departures and comparable before/during/after observations from makers, integrators and operations; test volume and departures separately from replacement.
+
+The disclosure calculator accepts hypothetical operator shares. Revenue departures remain account-based, and the revenue model has no replacement control. Neither calculator authenticates the requested records.
+
 For confidential swaps, an authorized and verifiable FAR record must connect each Explorer swap identity and intent hash to executed account deltas, amounts and timestamps. Independent operator mappings are additionally needed for company-level concentration. Disclosure coverage matters: a selective export cannot justify assigning the remaining unknown volume.
 
 Public NEAR receipts in BigQuery do not by themselves reveal private FAR execution. We have now discovered the live schemas, dry-run and executed a partition-filtered verifier event inventory across all 24 sampled windows. The warehouse returned 9,280 logs on SUCCESS_VALUE outcomes, 359 on FAILURE outcomes and 11 on SUCCESS_RECEIPT_ID outcomes. Successful-value groups include 1,671 `intents_executed` logs and 1,460 `token_diff` logs. These are event counts, not swaps or attributed solvers. Continuation outcomes do not themselves establish downstream completion, and failed logs do not establish transfers. No warehouse-to-Explorer swap reconciliation is claimed, and the attribution bounds are unchanged. [Executed SQL](queries/02_sample_window_event_inventory.sql), [results](queries/results/02_sample_window_event_inventory.json) and [job metadata (identity fields removed)](queries/results/02_sample_window_event_inventory.job.json) document the independent public-activity audit.

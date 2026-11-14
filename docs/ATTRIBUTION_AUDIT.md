@@ -43,4 +43,10 @@ The evidence now supports partial public account attribution, so claiming that p
 
 ## Verification
 
+### Final schema review — 2026-11-14
+
+After the finishing stages, the bundled archive and every RPC member hash were checked again. Successful `intents.near` DIP4 logs in the 1,333 bundled graphs use 0.3.0, separately versioned 0.3.1 `intents_executed`, and 0.4.3. All observed version/event combinations are already supported; no malformed `EVENT_JSON` logs were found in that successful-receipt scope. No new schema acceptance rule was added, and the method was not relaxed.
+
+The same 555 swaps still have 235 `unique_fee_balanced_counterparty`, 126 `ambiguous_public_execution`, 101 `no_linked_settlement` and 93 `linked_treasury_shield_and_release` reasons. None has `unsupported_event_schema` as its final reason. The remaining attribution gap cannot be removed by accepting an additional observed event version. Multi-account ambiguity and missing linkage stay unknown. This is an inventory of the bundled scope, not a claim that all possible protocol event schemas are supported.
+
 `python -m unittest discover -s tests -v` includes both real public examples, the original five confidential examples, invalid and unbalanced fees, unrelated intents, third accounts, malformed third-party records, extra customer execution receipts and float rejection. The offline rebuild and browser CSV arithmetic check cover the corrected totals and bounds. Public fixtures contain no RPC endpoint metadata or credentials.

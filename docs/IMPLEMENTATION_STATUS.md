@@ -1,5 +1,8 @@
 # Implementation status
 
+- Finishing work adds `make reproduce` / `python tools/reproduce_tables.py` for the data-only analytical build, clean-checkout CI checks, a supported-findings README opening, evidence/source/scenario requests, explicit breaking points, credited valuation context and consolidated README/THESIS limitations. The separate receipt replay remains available. No new collection, posting or submission was performed.
+- Final schema inventory: all observed successful DIP4 version/event combinations in the bundled 1,333 graphs are already supported. No acceptance rule was added or relaxed; 235 of 555 swaps remain attributable to 15 account IDs. [Final schema review](ATTRIBUTION_AUDIT.md#final-schema-review--2026-11-14).
+
 - The Explorer collector fetched 555 successful swaps from 24 fixed windows.
 - Additional collection and export work was deferred at the user's request. The validated 555-swap study is the published evidence. Extra Explorer snapshots and verified cache files are retained as archival research, excluded from attribution figures. No further collection or export is active or required for the current release.
 - All 1,333 linked NEAR transaction response graphs are cached and complete.

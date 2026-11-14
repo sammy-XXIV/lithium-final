@@ -56,3 +56,13 @@ Added original credited paragraphs linking Andrea Soldano's pinned `thesis/THESI
 README and THESIS each have one detailed Limitations section, retaining sampling, method, attribution/identity, bounds, source/economics, warehouse, scenario, stress, adoption and reproduction qualifications. Essential distinctions remain beside the claims. Review also corrected the data-only verifier's per-field diagnostic for absent nullable summary keys, after a failing regression demonstrated it; the overall file comparison already rejected the mismatch. No measurement rule changed.
 
 Gates: analytical build PASS; 32 Python tests PASS, including the added nullable-field regression and receipt replay; both JavaScript scenario checks and Pages browser checks PASS; diff check PASS. Remaining: stage 7 only.
+
+## Stage 7 — schema inventory and final replay
+
+Checked the bundled archive SHA-256 and all 1,333 RPC member hashes. Successful `intents.near` DIP4 logs contain supported 0.3.0, separately versioned 0.3.1 `intents_executed`, and 0.4.3 events. There are no observed unsupported version/event combinations or malformed EVENT_JSON logs in that scope. No additional schema support was justified; the classifier and measurement method are unchanged.
+
+Recomputed results remain 235 attributable swaps, 126 ambiguous public executions, 101 without linked settlement and 93 confidential-treasury paths, in the same 555-swap sample. Attribution is $237,244.082545028184 across 15 account IDs; independent operator identities remain unverified. Updated README, THESIS, research guide, attribution audit and implementation status to explain the review and retained gap.
+
+Gates: full raw-snapshot replay PASS; analytical regeneration PASS for every summary field and generated file; 32 Python tests PASS; both JavaScript scenario checks PASS; Pages browser checks PASS; diff check PASS. All requested local stages are complete. No new collection, push, publication or submission occurred. A changed remote CI/Pages run remains unexecuted because publishing was prohibited; local build/browser verification is not described as a new hosted deployment.
+
+Final implementation review was performed inline against the baseline diff. The nullable-field diagnostic was the substantive correction found and regression-tested; no deferred code findings remain. Local commits preserve the stage checkpoints.

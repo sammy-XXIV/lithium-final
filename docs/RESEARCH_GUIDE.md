@@ -42,6 +42,8 @@ Source: [swap-level CSV](data/swaps.csv), [exact summary](data/summary.json), [r
 
 **The original zero-attribution headline was partly a tooling defect.** We corrected missing support for intents_executed 0.3.1 and aggregate complete two-account executions, including intermediary tokens and reported fees. Every token must balance exactly after fees. The 126 remaining ambiguous public swaps involve unsupported attribution structures, while 101 swaps lack linked settlement evidence. Privacy does not explain every unknown. See the [full correction and real-receipt audit](ATTRIBUTION_AUDIT.md).
 
+The final bundled-schema inventory found no remaining unsupported version/event combinations in successful `intents.near` DIP4 logs. The observed 0.3.0, separately versioned 0.3.1 `intents_executed`, and 0.4.3 events are already supported. No new parser rule was added; attribution remains 235 of 555 swaps. This does not assert support for every protocol schema outside the bundle. [Final schema-review scope](ATTRIBUTION_AUDIT.md#final-schema-review--2026-11-14).
+
 [Open the observed attribution coverage](index.html#coverage).
 
 ### What the bounds establish

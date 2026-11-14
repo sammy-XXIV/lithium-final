@@ -44,3 +44,7 @@ The opening now leads with unverified solver diversification, the supported 235-
 ## Stage 4 — analyst evidence requests
 
 README and THESIS now connect settlement, ownership/aliases, coverage, economics and continuity requests to responsible sources and the actual calculator assumptions. Fixed economic inputs require a sourced rebuild; account departure controls are not an operator-mapping feature, and there is no replacement-rate control. Gates: analytical build PASS; 31 Python tests PASS; both JavaScript scenario checks and Pages browser checks PASS; diff check PASS. Remaining: stages 5–7.
+
+## Stage 5 — breaking points
+
+Added explicit evidence-condition/verdict consequences, using the existing coverage and width gates rather than new fitted thresholds. Complete authenticated coverage/mapping permits measuring sample operator concentration, not assuming diversification. Verified aliases change the identity interpretation; complete replacement at unchanged captured-fee yield contradicts the event's no-replacement loss scenario. Gates: analytical build PASS; 31 Python tests PASS; both JavaScript scenario checks and Pages browser checks PASS; diff check PASS. Remaining: stages 6–7.

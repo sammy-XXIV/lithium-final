@@ -78,11 +78,13 @@ Lithium is intended to help an analyst decide whether a solver-diversification c
 
 The dashboard's separate disclosure scenario asks what additional authenticated coverage could change. Inputs represent hypothetical, disjoint full-denominator shares assigned to independent operators, with the remainder unknown. They are not evidence that disclosures occurred. Top-1, top-3 and HHI bounds narrow according to the entered shares; full disclosure may reveal high concentration. This scenario neither changes the observed sample nor authenticates private settlement records.
 
-## What would change the assessment
+## Breaking points
 
 A completed, independently checked analysis with at least 90% of valid sampled USD attributable would weaken the practical auditability concern for that sampled scope. Full-sample top-3 bound width at most 0.10 and HHI bound width at most 0.05 would make concentration more informative. These are stated decision criteria, not current findings or forecasts; they were set after the spike and Explorer collection, before a completed wider receipt analysis.
 
 Verified evidence of low or falling operator concentration would strengthen the case for diversified filling. A lack of volume disruption during independently established maker exits would weaken a fragility hypothesis. Neither is established by this study's current data. No exit counterfactual, prediction or token-return forecast is being presented as an observed outcome.
+
+Apply the [explicit condition/verdict table](README.md#breaking-points). The coverage and width gates plus authenticated mappings reopen the auditability assessment; they do not award a diversification premium. Full sampled-USD coverage and verified mappings for every executing account would support measuring operator concentration after merging aliases. A mapping proving shared ownership changes the interpretation of separate account IDs even if attributable USD is unchanged. If independently verified replacement settlements cover all exposed flow at unchanged captured-fee yield during a documented departure, the model's no-replacement loss scenario is contradicted for that event. These are conditional breaking points, not completed disclosures, verified exits or forecasts.
 
 ## What data would settle the unknowns
 

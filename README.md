@@ -56,7 +56,16 @@ Do not infer independent solver diversification from gross swap volume. The larg
 - **Fees and sources:** Explorer USD values and public RPC records underpin the analysis. Referral/app-fee parameters are not measured USD fee revenue; BigQuery is an independent event inventory, not swap-level reconciliation.
 - **Scenarios:** hypothetical disclosures and exclusions are not predictions, confidence intervals or observed solver-exit effects. Not financial advice.
 
-## Evidence against the claim; what would change it?
+## Breaking points
+
+| Evidence condition | Change to the verdict |
+| --- | --- |
+| Independently checked attribution covers at least 90% of valid sampled USD, full-sample top-three bound width is at most 0.10, HHI bound width is at most 0.05, and authenticated operator mappings cover the attributed accounts | Reassess the practical auditability concern for this sample. These existing project gates reduce uncertainty; they do not prove low concentration. |
+| Authenticated settlements account for all sampled valid USD and every executing account has a verified operator/alias mapping | Replace an unverified operator-concentration assessment with a measured one for the sample, after merging aliases. It may reveal concentration rather than diversification. |
+| A verified mapping shows that distinct observed account IDs share an operator | Revise the identity interpretation and recompute operator-level concentration separately. Keep the published account-level result labeled as such. |
+| During an independently documented departure, replacement executions settle all exposed flow at unchanged captured-fee yield | The no-replacement revenue-loss scenario does not describe that event; lost captured revenue from that replaced flow is zero under these stated conditions. It does not establish future replacement capacity. |
+
+The coverage and width gates were stated before the corrected wider receipt analysis. They are research decision criteria, not industry standards, current achievements or buy signals. Test their concentration consequences in the [disclosure calculator](https://sammy-xxiv.github.io/lithium-final/#decision). No binding settlement export, operator mapping or documented exit is claimed here.
 
 Private settlement can coexist with diverse, competitive makers. Public attribution is possible for part of the sample, and another maker could replace an exiting account. No causal connection from an account's departure to lost revenue is established. An authenticated settlement export with broad coverage, independent operator mapping and observed continuity through documented exits would make the diversification and durability case testable. See the [thesis](THESIS.md) for explicit research gates and counterevidence.
 
